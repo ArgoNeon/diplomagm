@@ -117,7 +117,7 @@ json_reader    </h1>
 </span><span id="L-36"><a href="#L-36"><span class="linenos"> 36</span></a><span class="sd">    :type file_name: str</span>
 </span><span id="L-37"><a href="#L-37"><span class="linenos"> 37</span></a><span class="sd">    :return: data from the JSON-format file</span>
 </span><span id="L-38"><a href="#L-38"><span class="linenos"> 38</span></a><span class="sd">    :rtype: dictionary</span>
-</span><span id="L-39"><a href="#L-39"><span class="linenos"> 39</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-39"><a href="#L-39"><span class="linenos"> 39</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-40"><a href="#L-40"><span class="linenos"> 40</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="L-41"><a href="#L-41"><span class="linenos"> 41</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="L-42"><a href="#L-42"><span class="linenos"> 42</span></a>    <span class="k">return</span> <span class="n">data</span>
@@ -130,7 +130,7 @@ json_reader    </h1>
 </span><span id="L-49"><a href="#L-49"><span class="linenos"> 49</span></a><span class="sd">    :type file_name: str</span>
 </span><span id="L-50"><a href="#L-50"><span class="linenos"> 50</span></a><span class="sd">    :param data: data for loading to the JSON-format file</span>
 </span><span id="L-51"><a href="#L-51"><span class="linenos"> 51</span></a><span class="sd">    :type data: dictionary</span>
-</span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-53"><a href="#L-53"><span class="linenos"> 53</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">write_file</span><span class="p">:</span>
 </span><span id="L-54"><a href="#L-54"><span class="linenos"> 54</span></a>        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">write_file</span><span class="p">)</span>
 </span><span id="L-55"><a href="#L-55"><span class="linenos"> 55</span></a>
@@ -140,7 +140,7 @@ json_reader    </h1>
 </span><span id="L-59"><a href="#L-59"><span class="linenos"> 59</span></a>
 </span><span id="L-60"><a href="#L-60"><span class="linenos"> 60</span></a><span class="sd">    :param data: data with intermidiate changes</span>
 </span><span id="L-61"><a href="#L-61"><span class="linenos"> 61</span></a><span class="sd">    :type data: dictionary</span>
-</span><span id="L-62"><a href="#L-62"><span class="linenos"> 62</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-62"><a href="#L-62"><span class="linenos"> 62</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-63"><a href="#L-63"><span class="linenos"> 63</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">write_file</span><span class="p">:</span>
 </span><span id="L-64"><a href="#L-64"><span class="linenos"> 64</span></a>        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">write_file</span><span class="p">)</span>
 </span><span id="L-65"><a href="#L-65"><span class="linenos"> 65</span></a>
@@ -150,7 +150,7 @@ json_reader    </h1>
 </span><span id="L-69"><a href="#L-69"><span class="linenos"> 69</span></a>
 </span><span id="L-70"><a href="#L-70"><span class="linenos"> 70</span></a><span class="sd">    :return: data with intermidiate changes</span>
 </span><span id="L-71"><a href="#L-71"><span class="linenos"> 71</span></a><span class="sd">    :rtype: dictionary</span>
-</span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-73"><a href="#L-73"><span class="linenos"> 73</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a>    <span class="k">return</span> <span class="n">data</span>
@@ -161,7 +161,7 @@ json_reader    </h1>
 </span><span id="L-80"><a href="#L-80"><span class="linenos"> 80</span></a>
 </span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a><span class="sd">    :param file_name: file name for loading data from the dump file</span>
 </span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a><span class="sd">    :type file_name: str</span>
-</span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>
@@ -176,7 +176,7 @@ json_reader    </h1>
 </span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a><span class="sd">    :type data_field: dictionary</span>
 </span><span id="L-96"><a href="#L-96"><span class="linenos"> 96</span></a><span class="sd">    :return: field object with parameters specified in dictionary with data about field</span>
 </span><span id="L-97"><a href="#L-97"><span class="linenos"> 97</span></a><span class="sd">    :rtype: field object</span>
-</span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-99"><a href="#L-99"><span class="linenos"> 99</span></a>    <span class="n">field_length</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">][</span><span class="s1">&#39;length&#39;</span><span class="p">]</span>
 </span><span id="L-100"><a href="#L-100"><span class="linenos">100</span></a>    <span class="n">field_width</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">][</span><span class="s1">&#39;width&#39;</span><span class="p">]</span>
 </span><span id="L-101"><a href="#L-101"><span class="linenos">101</span></a>    <span class="n">field_x</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;coordinates&#39;</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span>
@@ -195,7 +195,7 @@ json_reader    </h1>
 </span><span id="L-114"><a href="#L-114"><span class="linenos">114</span></a><span class="sd">    :type panoramic_systems: list of panoramic system object</span>
 </span><span id="L-115"><a href="#L-115"><span class="linenos">115</span></a><span class="sd">    :param data_list: data about all panoramic systems in model</span>
 </span><span id="L-116"><a href="#L-116"><span class="linenos">116</span></a><span class="sd">    :type data_list: dictionary</span>
-</span><span id="L-117"><a href="#L-117"><span class="linenos">117</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-117"><a href="#L-117"><span class="linenos">117</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-118"><a href="#L-118"><span class="linenos">118</span></a>    <span class="n">list_of_panoramic_systems</span> <span class="o">=</span> <span class="n">data_list</span><span class="p">[</span><span class="s1">&#39;list_of_panoramic_systems&#39;</span><span class="p">]</span>
 </span><span id="L-119"><a href="#L-119"><span class="linenos">119</span></a>    <span class="k">for</span> <span class="n">ipanoramic_system</span> <span class="ow">in</span> <span class="n">list_of_panoramic_systems</span><span class="p">:</span>
 </span><span id="L-120"><a href="#L-120"><span class="linenos">120</span></a>        <span class="n">panoramic_system</span> <span class="o">=</span> <span class="n">pano</span><span class="o">.</span><span class="n">PanoramicSystem</span><span class="p">(</span>
@@ -236,7 +236,7 @@ json_reader    </h1>
 </span><span id="L-155"><a href="#L-155"><span class="linenos">155</span></a><span class="sd">    :type list_of_panoramic_systems_file: str</span>
 </span><span id="L-156"><a href="#L-156"><span class="linenos">156</span></a><span class="sd">    :return: field and list of panoramic systems objects initialized from field file and list of panoramic systems file</span>
 </span><span id="L-157"><a href="#L-157"><span class="linenos">157</span></a><span class="sd">    :rtype: field and list of panoramic systems objects</span>
-</span><span id="L-158"><a href="#L-158"><span class="linenos">158</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="L-158"><a href="#L-158"><span class="linenos">158</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-159"><a href="#L-159"><span class="linenos">159</span></a>    <span class="n">data_field</span> <span class="o">=</span> <span class="n">fileReader</span><span class="p">(</span><span class="n">field_file</span><span class="p">)</span>
 </span><span id="L-160"><a href="#L-160"><span class="linenos">160</span></a>    <span class="n">data_list</span> <span class="o">=</span> <span class="n">fileReader</span><span class="p">(</span><span class="n">list_of_panoramic_systems_file</span><span class="p">)</span>
 </span><span id="L-161"><a href="#L-161"><span class="linenos">161</span></a>
@@ -269,7 +269,7 @@ json_reader    </h1>
 </span><span id="fileReader-37"><a href="#fileReader-37"><span class="linenos">37</span></a><span class="sd">    :type file_name: str</span>
 </span><span id="fileReader-38"><a href="#fileReader-38"><span class="linenos">38</span></a><span class="sd">    :return: data from the JSON-format file</span>
 </span><span id="fileReader-39"><a href="#fileReader-39"><span class="linenos">39</span></a><span class="sd">    :rtype: dictionary</span>
-</span><span id="fileReader-40"><a href="#fileReader-40"><span class="linenos">40</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="fileReader-40"><a href="#fileReader-40"><span class="linenos">40</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="fileReader-41"><a href="#fileReader-41"><span class="linenos">41</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="fileReader-42"><a href="#fileReader-42"><span class="linenos">42</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="fileReader-43"><a href="#fileReader-43"><span class="linenos">43</span></a>    <span class="k">return</span> <span class="n">data</span>
@@ -311,7 +311,7 @@ json_reader    </h1>
 </span><span id="fileLoader-50"><a href="#fileLoader-50"><span class="linenos">50</span></a><span class="sd">    :type file_name: str</span>
 </span><span id="fileLoader-51"><a href="#fileLoader-51"><span class="linenos">51</span></a><span class="sd">    :param data: data for loading to the JSON-format file</span>
 </span><span id="fileLoader-52"><a href="#fileLoader-52"><span class="linenos">52</span></a><span class="sd">    :type data: dictionary</span>
-</span><span id="fileLoader-53"><a href="#fileLoader-53"><span class="linenos">53</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="fileLoader-53"><a href="#fileLoader-53"><span class="linenos">53</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="fileLoader-54"><a href="#fileLoader-54"><span class="linenos">54</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">write_file</span><span class="p">:</span>
 </span><span id="fileLoader-55"><a href="#fileLoader-55"><span class="linenos">55</span></a>        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">write_file</span><span class="p">)</span>
 </span></pre></div>
@@ -345,7 +345,7 @@ json_reader    </h1>
 </span><span id="saveDump-60"><a href="#saveDump-60"><span class="linenos">60</span></a>
 </span><span id="saveDump-61"><a href="#saveDump-61"><span class="linenos">61</span></a><span class="sd">    :param data: data with intermidiate changes</span>
 </span><span id="saveDump-62"><a href="#saveDump-62"><span class="linenos">62</span></a><span class="sd">    :type data: dictionary</span>
-</span><span id="saveDump-63"><a href="#saveDump-63"><span class="linenos">63</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="saveDump-63"><a href="#saveDump-63"><span class="linenos">63</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="saveDump-64"><a href="#saveDump-64"><span class="linenos">64</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">write_file</span><span class="p">:</span>
 </span><span id="saveDump-65"><a href="#saveDump-65"><span class="linenos">65</span></a>        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">write_file</span><span class="p">)</span>
 </span></pre></div>
@@ -378,7 +378,7 @@ json_reader    </h1>
 </span><span id="loadDump-70"><a href="#loadDump-70"><span class="linenos">70</span></a>
 </span><span id="loadDump-71"><a href="#loadDump-71"><span class="linenos">71</span></a><span class="sd">    :return: data with intermidiate changes</span>
 </span><span id="loadDump-72"><a href="#loadDump-72"><span class="linenos">72</span></a><span class="sd">    :rtype: dictionary</span>
-</span><span id="loadDump-73"><a href="#loadDump-73"><span class="linenos">73</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="loadDump-73"><a href="#loadDump-73"><span class="linenos">73</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="loadDump-74"><a href="#loadDump-74"><span class="linenos">74</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="loadDump-75"><a href="#loadDump-75"><span class="linenos">75</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="loadDump-76"><a href="#loadDump-76"><span class="linenos">76</span></a>    <span class="k">return</span> <span class="n">data</span>
@@ -412,7 +412,7 @@ json_reader    </h1>
 </span><span id="loadFromDumpToFile-81"><a href="#loadFromDumpToFile-81"><span class="linenos">81</span></a>
 </span><span id="loadFromDumpToFile-82"><a href="#loadFromDumpToFile-82"><span class="linenos">82</span></a><span class="sd">    :param file_name: file name for loading data from the dump file</span>
 </span><span id="loadFromDumpToFile-83"><a href="#loadFromDumpToFile-83"><span class="linenos">83</span></a><span class="sd">    :type file_name: str</span>
-</span><span id="loadFromDumpToFile-84"><a href="#loadFromDumpToFile-84"><span class="linenos">84</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="loadFromDumpToFile-84"><a href="#loadFromDumpToFile-84"><span class="linenos">84</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="loadFromDumpToFile-85"><a href="#loadFromDumpToFile-85"><span class="linenos">85</span></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dump/dump.json&#39;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
 </span><span id="loadFromDumpToFile-86"><a href="#loadFromDumpToFile-86"><span class="linenos">86</span></a>        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
 </span><span id="loadFromDumpToFile-87"><a href="#loadFromDumpToFile-87"><span class="linenos">87</span></a>
@@ -450,7 +450,7 @@ json_reader    </h1>
 </span><span id="fieldReader-96"><a href="#fieldReader-96"><span class="linenos"> 96</span></a><span class="sd">    :type data_field: dictionary</span>
 </span><span id="fieldReader-97"><a href="#fieldReader-97"><span class="linenos"> 97</span></a><span class="sd">    :return: field object with parameters specified in dictionary with data about field</span>
 </span><span id="fieldReader-98"><a href="#fieldReader-98"><span class="linenos"> 98</span></a><span class="sd">    :rtype: field object</span>
-</span><span id="fieldReader-99"><a href="#fieldReader-99"><span class="linenos"> 99</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="fieldReader-99"><a href="#fieldReader-99"><span class="linenos"> 99</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="fieldReader-100"><a href="#fieldReader-100"><span class="linenos">100</span></a>    <span class="n">field_length</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">][</span><span class="s1">&#39;length&#39;</span><span class="p">]</span>
 </span><span id="fieldReader-101"><a href="#fieldReader-101"><span class="linenos">101</span></a>    <span class="n">field_width</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">][</span><span class="s1">&#39;width&#39;</span><span class="p">]</span>
 </span><span id="fieldReader-102"><a href="#fieldReader-102"><span class="linenos">102</span></a>    <span class="n">field_x</span> <span class="o">=</span> <span class="n">data_field</span><span class="p">[</span><span class="s1">&#39;coordinates&#39;</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span>
@@ -498,7 +498,7 @@ json_reader    </h1>
 </span><span id="listOfPanoramicSystemsReader-115"><a href="#listOfPanoramicSystemsReader-115"><span class="linenos">115</span></a><span class="sd">    :type panoramic_systems: list of panoramic system object</span>
 </span><span id="listOfPanoramicSystemsReader-116"><a href="#listOfPanoramicSystemsReader-116"><span class="linenos">116</span></a><span class="sd">    :param data_list: data about all panoramic systems in model</span>
 </span><span id="listOfPanoramicSystemsReader-117"><a href="#listOfPanoramicSystemsReader-117"><span class="linenos">117</span></a><span class="sd">    :type data_list: dictionary</span>
-</span><span id="listOfPanoramicSystemsReader-118"><a href="#listOfPanoramicSystemsReader-118"><span class="linenos">118</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="listOfPanoramicSystemsReader-118"><a href="#listOfPanoramicSystemsReader-118"><span class="linenos">118</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="listOfPanoramicSystemsReader-119"><a href="#listOfPanoramicSystemsReader-119"><span class="linenos">119</span></a>    <span class="n">list_of_panoramic_systems</span> <span class="o">=</span> <span class="n">data_list</span><span class="p">[</span><span class="s1">&#39;list_of_panoramic_systems&#39;</span><span class="p">]</span>
 </span><span id="listOfPanoramicSystemsReader-120"><a href="#listOfPanoramicSystemsReader-120"><span class="linenos">120</span></a>    <span class="k">for</span> <span class="n">ipanoramic_system</span> <span class="ow">in</span> <span class="n">list_of_panoramic_systems</span><span class="p">:</span>
 </span><span id="listOfPanoramicSystemsReader-121"><a href="#listOfPanoramicSystemsReader-121"><span class="linenos">121</span></a>        <span class="n">panoramic_system</span> <span class="o">=</span> <span class="n">pano</span><span class="o">.</span><span class="n">PanoramicSystem</span><span class="p">(</span>
@@ -563,7 +563,7 @@ json_reader    </h1>
 </span><span id="initModel-156"><a href="#initModel-156"><span class="linenos">156</span></a><span class="sd">    :type list_of_panoramic_systems_file: str</span>
 </span><span id="initModel-157"><a href="#initModel-157"><span class="linenos">157</span></a><span class="sd">    :return: field and list of panoramic systems objects initialized from field file and list of panoramic systems file</span>
 </span><span id="initModel-158"><a href="#initModel-158"><span class="linenos">158</span></a><span class="sd">    :rtype: field and list of panoramic systems objects</span>
-</span><span id="initModel-159"><a href="#initModel-159"><span class="linenos">159</span></a><span class="sd">    &quot;&quot;&quot;</span>    
+</span><span id="initModel-159"><a href="#initModel-159"><span class="linenos">159</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="initModel-160"><a href="#initModel-160"><span class="linenos">160</span></a>    <span class="n">data_field</span> <span class="o">=</span> <span class="n">fileReader</span><span class="p">(</span><span class="n">field_file</span><span class="p">)</span>
 </span><span id="initModel-161"><a href="#initModel-161"><span class="linenos">161</span></a>    <span class="n">data_list</span> <span class="o">=</span> <span class="n">fileReader</span><span class="p">(</span><span class="n">list_of_panoramic_systems_file</span><span class="p">)</span>
 </span><span id="initModel-162"><a href="#initModel-162"><span class="linenos">162</span></a>
